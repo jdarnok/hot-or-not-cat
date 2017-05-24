@@ -22,7 +22,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'devise_token_auth'
 gem 'aws-sdk'
-gem ''
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -8,8 +8,8 @@ require 'json'
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Seeding amazing cats stuff: '
-20.times do |i|
-  puts "#{i+1}/30 \n"
+50.times do |i|
+  puts "#{i+1}/50 \n"
   filename = JSON.parse(open('http://random.cat/meow').read)['file']
   Cat.create(remote_image_url: filename)
 end
